@@ -8,6 +8,6 @@ public class ConcessionariaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConcessionariaApplication.class, args);
+		System.out.println("ola mundo");
 	}
-
 }
