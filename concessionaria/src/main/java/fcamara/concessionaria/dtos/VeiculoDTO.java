@@ -1,4 +1,5 @@
 package fcamara.concessionaria.dtos;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,9 +8,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class EstabelecimentoDTO {
-    private Integer idEstabelecimento;
-    private String Nome;
-    private String Telefone;
+public class VeiculoDTO {
+    private String Marca;
+    private String Modelo;
+    private String Cor;
+    private String Placa;
+    private String Tipo;
 }
-
